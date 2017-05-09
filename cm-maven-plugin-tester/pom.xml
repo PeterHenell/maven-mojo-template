@@ -30,6 +30,9 @@
         <executions>
           <execution>
             <phase>compile</phase>
+            <configuration>
+              <greeting>This is my fancy message to say hello</greeting>
+            </configuration>
             <goals>
               <goal>sayhi</goal>
             </goals>
